@@ -1,0 +1,74 @@
+/* General body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('2025-03-30-20-52-24.png'); /* Replace with your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Header styles */
+header h1 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+/* Profile image styles */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+}
+
+/* Button section styles */
+#buttons-section {
+  margin: 20px 0;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.button-set {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rgb-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none; /* For link buttons */
+  display: inline-block; /* Ensures consistent styling for links and buttons */
+  background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet); /* Static rainbow gradient */
+  background-size: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Default shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for buttons */
+.rgb-button:hover {
+  transform: translateY(-5px); /* Raise the button */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
